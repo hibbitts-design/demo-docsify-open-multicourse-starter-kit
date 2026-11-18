@@ -6,6 +6,9 @@
     <img src="https://img.shields.io/badge/chat-on%20discord-7289DA.svg" alt="Docsify Discord Chat" />
 </a>
 
+> [!NOTE]
+> **Replaced by the [Docsify Open Courses Starter Kit](https://github.com/hibbitts-design/docsify-open-courses-starter-kit):** this kit is no longer being developed. For a new site with one course or many, use the Open Courses kit ([demo](https://hibbitts-design.github.io/demo-docsify-open-courses-starter-kit/)) – a Courses page with course cards, and each course with its own sidebar and navbar. Sites already built from this kit keep working.
+
 Docsify sites use client-side rendering, which means your content will not be indexed by search engines like Google, Bing, or DuckDuckGo.
 
 > A MultiCourse variation of the [Docsify Open Course Starter Kit](https://github.com/hibbitts-design/docsify-open-course-starter-kit) to quickly create a Markdown-based open multi-course site with the site generator [Docsify](https://docsify.js.org) (v5 Preview). Global navigation elements can be hidden for seamlessly embedding pages (i.e., into an LMS). Includes an optional "Edit this Page" link.
@@ -384,7 +387,7 @@ When the Docsify v5 theme is enabled, to style Blockquotes similarly to the defa
 </div>
 ```
 
-`card-list-guides` / `card-list-sections` (three cards in a row, for a list of guides or a guide's sections; for just two cards, use `card-list`)
+`card-list-guides` / `card-list-courses` / `card-list-sections` (three cards in a row, for a list of guides, a list of courses or a guide's sections; for just two cards, use `card-list`)
 
 ```html
 <div class="card-list-guides">
